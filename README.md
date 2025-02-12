@@ -16,7 +16,7 @@ Usage
 --------
 
     tinyhtml2::HTMLDocument doc;
-    doc.ParseURL( "test.html" );
+    doc.ParseFile( "test.html" );
 
     /* Get Album */
     tinyhtml2::HTMLResult* result = doc.Query(".album/ul/li/a");
