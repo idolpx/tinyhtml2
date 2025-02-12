@@ -3,7 +3,7 @@
 // Contributor: idolpx
 // History:
 //     2013-10-14 create.
-//     2021-05-07 updated to tinyxml2 (https://github.com/idolpx/tinyhtml)
+//     2021-05-07 updated to tinyxml2 (https://github.com/idolpx/tinyhtml2)
 //
 // This software is provided 'as-is', without any express or implied
 // warranty. In no event will the authors be held liable for any
