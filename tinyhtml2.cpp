@@ -284,9 +284,9 @@ HTMLDocument::HTMLDocument() {
     internal = doc;
 }
 
-bool HTMLDocument::ParseURL( const char * url ) {
+bool HTMLDocument::ParseFile( const char * file ) {
     tinyxml2::XMLDocument* doc = (tinyxml2::XMLDocument* )internal;
-    return doc ? doc->LoadFile(url):false;
+    return doc ? doc->LoadFile(file):false;
 }
 
 bool HTMLDocument::ParseData( const char * data ) {
