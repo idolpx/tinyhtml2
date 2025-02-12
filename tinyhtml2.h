@@ -83,7 +83,7 @@ public:
 	HTMLDocument();
     virtual ~HTMLDocument();
 
-    bool ParseURL( const char * url );
+    bool ParseFile( const char * file );
     bool ParseData( const char * data );
 
     /*
